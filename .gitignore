@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+.terraform/
+ny_taxi_pg_data/
+data/
+*.csv
+*.gz
+*.parquet
+*.tfstate
+terraform.tfvars

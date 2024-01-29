@@ -26,6 +26,7 @@ resource "aws_instance" "web" {
 #   }
 # }
 
-# docker run --rm -it -v "$(pwd)\terraform:/apps" hashicorp/terraform -chdir=/apps plan
-# docker run --rm -it -v "$(pwd)\terraform:/apps" hashicorp/terraform -chdir=/apps apply
-# docker run --rm -it -v "$(pwd)\terraform:/apps" hashicorp/terraform -chdir=/apps destroy
+# docker run --rm -it -v "$(pwd)\terraform\aws:/apps" hashicorp/terraform -chdir=/apps plan
+# docker run --rm -it -v "$(pwd)\terraform\aws:/apps" hashicorp/terraform -chdir=/apps apply
+# docker run --rm -it -v "$(pwd)\terraform\aws:/apps" hashicorp/terraform -chdir=/apps destroy
+

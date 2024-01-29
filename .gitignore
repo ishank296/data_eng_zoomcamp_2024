@@ -7,3 +7,5 @@ data/
 *.parquet
 *.tfstate
 terraform.tfvars
+keys
+config

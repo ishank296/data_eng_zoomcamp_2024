@@ -34,3 +34,6 @@ wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
 
 `newgrp docker`
 
+### install docker-compose
+docker compose releases - https://github.com/docker/compose/releases
+`wget https://github.com/docker/compose/releases/download/v2.24.4/docker-compose-linux-x86_64 -O docker-compose`
